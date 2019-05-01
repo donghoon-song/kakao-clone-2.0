@@ -1,3 +1,10 @@
 .status-bar {
-  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  color: #656565;
+}
+
+.status-bar i {
+  font-size: 14px;
 }
