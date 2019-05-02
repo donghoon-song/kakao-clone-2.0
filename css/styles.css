@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300:400,600";
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
@@ -7,6 +7,8 @@
 @import "find.css";
 @import "friends.css";
 @import "more.css";
+@import "setting.css";
+@import "chat.css";
 
 * {
   box-sizing: border-box;
