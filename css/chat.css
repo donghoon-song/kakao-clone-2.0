@@ -1,3 +1,13 @@
+.header-wrapper {
+  position: fixed;
+  padding: 10px 0px;
+  background-color: white;
+  top: 0px;
+  width: 100%;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
 .chat__write {
   position: fixed;
   bottom: 50px;
@@ -34,13 +44,12 @@
   outline: none;
 }
 
-.chat-screen {
+.chats-body {
   background-image: url("../images/chatBg.png.png");
   min-height: 100vh;
-}
-
-.chats-body {
-  padding: 0px;
+  padding: 10px 0px;
+  padding-top: 100px;
+  min-height: 1000vh;
 }
 
 .chats-body .header,
@@ -52,7 +61,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
   border-top: 1px solid #f7f7f7;
   padding: 0px 20px;
   padding-top: 30px;
